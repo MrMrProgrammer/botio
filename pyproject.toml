@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "botio"
+version = "0.0.2"
+description = "Platform-agnostic framework for building chat bots."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+authors = [
+{ name = "Seyed Mohammadreza Hashemi" }
+]
+
+keywords = [
+"telegram",
+"bot",
+"chatbot",
+"framework",
+"messaging"
+]
+
+classifiers = [
+"Development Status :: 3 - Alpha",
+"Framework :: AsyncIO",
+"Programming Language :: Python :: 3",
+"Programming Language :: Python :: 3.10",
+"Programming Language :: Python :: 3.11",
+"Programming Language :: Python :: 3.12",
+"License :: OSI Approved :: MIT License",
+]
+
+dependencies = [
+"httpx>=0.28.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/mrmrprogrammer/botio"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["botio*"]

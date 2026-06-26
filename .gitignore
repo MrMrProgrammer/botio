@@ -1,0 +1,63 @@
+# Virtual Environment
+
+venv/
+.venv/
+env/
+
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Build
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+
+.env
+.env.*
+
+# Logs
+
+*.log
+
+# Mypy
+
+.mypy_cache/
+
+# Ruff
+
+.ruff_cache/
+
+# Pyright
+
+.pyright/
+
+# Coverage
+
+coverage.xml
+
+# Local files
+
+*.sqlite3
